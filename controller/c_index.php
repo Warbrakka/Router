@@ -1,5 +1,5 @@
 <?php
-class index
+class c_index
 {
     public function __construct()
     {
@@ -7,6 +7,6 @@ class index
     }
     public function action($arg = null)
     {
-        echo "Controller: INDEX, Method: ACTION, Parameters: ".$arg;
+        echo " Method: ACTION, Parameters: ".$arg;
     }
 }

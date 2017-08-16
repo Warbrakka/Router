@@ -1,5 +1,5 @@
 <?php
-class help
+class c_help
 {
     public function __construct()
     {
@@ -7,6 +7,6 @@ class help
     }
     public function other($arg = null)
     {
-        echo "Controller: HELP, Method: OTHER, Parameters: ".$arg;
+        echo " Method: OTHER, Parameters: ".$arg;
     }
 }
